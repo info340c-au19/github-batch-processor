@@ -1,5 +1,4 @@
 // Packages
-const pkg      = require("../package.json");
 const program  = require("commander-plus");
 const fs       = require("fs");
 const path     = require("path");
@@ -27,7 +26,7 @@ const main = function() {
 
 const setup = function() {
 	program
-		.version(pkg.version)
+		.version("1.0.1")
 		.usage("<repos_folder> [options]")
 		.option("-f, --file <path>","path to file containing repo urls")
 		.option("-v, --verbose ","be more verbose")

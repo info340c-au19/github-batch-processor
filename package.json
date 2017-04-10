@@ -1,6 +1,6 @@
 {
   "name": "github-batch-processor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically update and grade github assignments",
   "bin": {
     "gbp": "./bin/index.js"
